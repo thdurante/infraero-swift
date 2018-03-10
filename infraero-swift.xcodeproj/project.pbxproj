@@ -56,15 +56,39 @@
 		23A1318B20541007006A12D9 /* infraero-swift */ = {
 			isa = PBXGroup;
 			children = (
+				23A131A2205410A2006A12D9 /* controllers */,
+				23A131A120541098006A12D9 /* views */,
+				23A131A020541089006A12D9 /* models */,
 				23A1318C20541007006A12D9 /* AppDelegate.swift */,
-				23A1318E20541007006A12D9 /* FirstViewController.swift */,
-				23A1319020541007006A12D9 /* SecondViewController.swift */,
-				23A1319220541007006A12D9 /* Main.storyboard */,
 				23A1319520541007006A12D9 /* Assets.xcassets */,
-				23A1319720541007006A12D9 /* LaunchScreen.storyboard */,
 				23A1319A20541007006A12D9 /* Info.plist */,
 			);
 			path = "infraero-swift";
+			sourceTree = "<group>";
+		};
+		23A131A020541089006A12D9 /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		23A131A120541098006A12D9 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				23A1319720541007006A12D9 /* LaunchScreen.storyboard */,
+				23A1319220541007006A12D9 /* Main.storyboard */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		23A131A2205410A2006A12D9 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				23A1318E20541007006A12D9 /* FirstViewController.swift */,
+				23A1319020541007006A12D9 /* SecondViewController.swift */,
+			);
+			path = controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

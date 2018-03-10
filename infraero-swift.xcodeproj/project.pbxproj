@@ -13,6 +13,10 @@
 		23A1319420541007006A12D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23A1319220541007006A12D9 /* Main.storyboard */; };
 		23A1319620541007006A12D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23A1319520541007006A12D9 /* Assets.xcassets */; };
 		23A1319920541007006A12D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23A1319720541007006A12D9 /* LaunchScreen.storyboard */; };
+		23A131A420541263006A12D9 /* airline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A131A320541263006A12D9 /* airline.swift */; };
+		23A131A620541274006A12D9 /* airport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A131A520541274006A12D9 /* airport.swift */; };
+		23A131A82054127F006A12D9 /* flight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A131A72054127F006A12D9 /* flight.swift */; };
+		23A131AA2054128E006A12D9 /* management_company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A131A92054128E006A12D9 /* management_company.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		23A1319520541007006A12D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23A1319820541007006A12D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		23A1319A20541007006A12D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23A131A320541263006A12D9 /* airline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = airline.swift; sourceTree = "<group>"; };
+		23A131A520541274006A12D9 /* airport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = airport.swift; sourceTree = "<group>"; };
+		23A131A72054127F006A12D9 /* flight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flight.swift; sourceTree = "<group>"; };
+		23A131A92054128E006A12D9 /* management_company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = management_company.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +77,10 @@
 		23A131A020541089006A12D9 /* models */ = {
 			isa = PBXGroup;
 			children = (
+				23A131A320541263006A12D9 /* airline.swift */,
+				23A131A520541274006A12D9 /* airport.swift */,
+				23A131A72054127F006A12D9 /* flight.swift */,
+				23A131A92054128E006A12D9 /* management_company.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -163,7 +175,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23A131A420541263006A12D9 /* airline.swift in Sources */,
+				23A131A82054127F006A12D9 /* flight.swift in Sources */,
+				23A131AA2054128E006A12D9 /* management_company.swift in Sources */,
 				23A1319120541007006A12D9 /* SecondViewController.swift in Sources */,
+				23A131A620541274006A12D9 /* airport.swift in Sources */,
 				23A1318D20541007006A12D9 /* AppDelegate.swift in Sources */,
 				23A1318F20541007006A12D9 /* FirstViewController.swift in Sources */,
 			);
